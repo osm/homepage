@@ -13,7 +13,7 @@ var index []byte
 var favicon []byte
 
 func main() {
-	port := flag.String("p", "4000", "listen port")
+	port := flag.String("p", "4001", "listen port")
 	flag.Parse()
 
 	http.HandleFunc("/favicon.png", func(w http.ResponseWriter, req *http.Request) {
