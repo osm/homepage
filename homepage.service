@@ -6,6 +6,8 @@ Type=simple
 Restart=always
 RestartSec=5s
 ExecStart=/usr/local/bin/homepage
+User=www-data
+Group=www-data
 
 [Install]
 WantedBy=multi-user.target
