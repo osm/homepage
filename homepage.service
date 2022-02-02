@@ -1,0 +1,11 @@
+[Unit]
+Description=homepage
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+ExecStart=/usr/local/bin/homepage
+
+[Install]
+WantedBy=multi-user.target
